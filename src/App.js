@@ -1,10 +1,12 @@
+import { Link, Outlet } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      Learn React
-    </div>
+    <>
+      <p>
+        <Link to="/todo-app">Todo</Link>
+      </p>
+      <Outlet />
+    </>
   );
 }
-
-export default App;
