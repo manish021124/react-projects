@@ -15,7 +15,7 @@ export default function App() {
         </ul>
       </nav>
 
-      <Outlet />
+      <Outlet /> {/* This is where child routes will be rendered */}
     </>
   );
 }

@@ -6,6 +6,9 @@ export default function Home() {
       <p>
         <Link to="/todo-app">Todo</Link>
       </p>
+      <p>
+        <Link to="/accordion">Accordion</Link>
+      </p>
     </>
   );
 }
