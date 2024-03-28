@@ -1,11 +1,20 @@
 import { Link, Outlet } from "react-router-dom";
+import './App.css';
 
 export default function App() {
   return (
     <>
-      <p>
-        <Link to="/todo-app">Todo</Link>
-      </p>
+      <nav className="navbar">
+        <ul>
+          <li>
+            <Link to="/">React Projects</Link>
+          </li>
+          {/* <li>
+            <Link to="/">Home</Link>
+          </li> */}
+        </ul>
+      </nav>
+
       <Outlet />
     </>
   );

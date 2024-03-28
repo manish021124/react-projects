@@ -1,1 +1,22 @@
+.navbar {
+  width: 100%;
+  background-color: #333333;
+}
 
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  float: left;
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 8px;
+  color: #FEFDFB;
+  text-decoration: none;
+}
