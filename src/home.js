@@ -9,6 +9,9 @@ export default function Home() {
       <p>
         <Link to="/accordion">Accordion</Link>
       </p>
+      <p>
+        <Link to="/carousel">Carousel</Link>
+      </p>
     </>
   );
 }

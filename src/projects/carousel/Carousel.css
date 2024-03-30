@@ -1,0 +1,23 @@
+.carousel {
+  width: 800px;
+  position: relative;
+}
+
+.carousel img {
+  width: 800px;
+}
+
+.carousel .carousel-left-btn,
+.carousel .carousel-right-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+}
+
+.carousel .carousel-left-btn {
+  left: 0;
+}
+
+.carousel .carousel-right-btn {
+  right: 0;
+}

@@ -4,8 +4,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Home from './home'
-import Main from "./projects/todo-app/Todo"
+import Todo from "./projects/todo-app/Todo"
 import Accordion from "./projects/accordion/Accordion"
+import Carousel from "./projects/carousel/Carousel"
 
 export default function Index() {
   return (
@@ -13,8 +14,9 @@ export default function Index() {
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
-          <Route path="todo-app" element={<Main />} />
+          <Route path="todo-app" element={<Todo />} />
           <Route path="accordion" element={<Accordion />} />
+          <Route path="carousel" element={<Carousel />} />
         </Route>
       </Routes>
     </BrowserRouter>

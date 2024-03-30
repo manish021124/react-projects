@@ -18,7 +18,7 @@ function TodoListItem({ todoList, onEdit, onDelete, onToggle }) {
   );
 }
 
-export default function Main() {
+export default function Todo() {
   const [name, setName] = useState('');
   const [todoLists, setTodoLists] = useState([]);
 
