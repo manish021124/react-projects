@@ -12,6 +12,9 @@ export default function Home() {
       <p>
         <Link to="/carousel">Carousel</Link>
       </p>
+      <p>
+        <Link to="/calculator">Calculator</Link>
+      </p>
     </>
   );
 }

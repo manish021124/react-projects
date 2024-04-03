@@ -7,6 +7,7 @@ import Home from './home'
 import Todo from "./projects/todo-app/Todo"
 import Accordion from "./projects/accordion/Accordion"
 import Carousel from "./projects/carousel/Carousel"
+import Calculator from './projects/calculator/Calculator';
 
 export default function Index() {
   return (
@@ -17,6 +18,7 @@ export default function Index() {
           <Route path="todo-app" element={<Todo />} />
           <Route path="accordion" element={<Accordion />} />
           <Route path="carousel" element={<Carousel />} />
+          <Route path="calculator" element={<Calculator />} />
         </Route>
       </Routes>
     </BrowserRouter>
