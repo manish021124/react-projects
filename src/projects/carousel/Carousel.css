@@ -1,10 +1,12 @@
 .carousel {
-  width: 800px;
+  width: 80%;
+  max-width: 800px;
+  min-width: 350px;
   position: relative;
 }
 
 .carousel img {
-  width: 800px;
+  width: 100%;
 }
 
 .carousel .carousel-left-btn,

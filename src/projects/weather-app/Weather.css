@@ -1,0 +1,68 @@
+.weather-form {
+  text-align: center;
+}
+
+.weather-form input {
+  max-width: 500px;
+  min-width: 100px !important;
+}
+
+.weather-form button {
+  width: 100px;
+}
+
+.weather-data {
+  text-align: center;
+  width: 100%;
+}
+
+.temp-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.temp-img {
+  width: 15vw;
+}
+
+.temp-img img {
+  width: 100%;
+}
+
+.temp {
+  font-size: 10vw;
+  padding-top: 0;
+}
+
+.degree {
+  display: block;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  border: 2px solid;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.description {
+  font-size: 5vw;
+}
+
+.minMax-temp {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+}
+
+.minMax-temp img {
+  width: 15px;
+  position: absolute;
+  top: 30%;
+}
+
+.min-temp {
+  margin-right: 15px;
+}

@@ -15,6 +15,9 @@ export default function Home() {
       <p>
         <Link to="/calculator">Calculator</Link>
       </p>
+      <p>
+        <Link to="/weather-app">Weather App</Link>
+      </p>
     </>
   );
 }
